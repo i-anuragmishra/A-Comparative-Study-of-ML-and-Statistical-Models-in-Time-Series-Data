@@ -1,23 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Jupyter
-.ipynb_checkpoints
-
-# Virtual Environment
-venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-
-# OS
 .DS_Store
-
-# Distribution
-dist/
-build/
-*.egg-info/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
