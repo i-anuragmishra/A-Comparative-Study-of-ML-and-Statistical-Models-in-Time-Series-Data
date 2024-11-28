@@ -1,8 +1,15 @@
-# Models Directory
+# Model Files
 
 This directory contains trained models:
-- LSTM models (*.h5)
-- Statistical models (*.pkl)
-- Neural Network models
 
-Note: Large model files are not tracked in git. Download from project releases.
+## City-specific Models
+- Acapulco_model.h5
+- Bac Lieu_model.h5
+- Edmonton_model.h5
+- Irkutsk_model.h5
+- Jiddah_model.h5
+
+## General Models
+- temperature_forecaster.h5
+- finalized_model.pkl
+- finalized_model-2.pkl
