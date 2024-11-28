@@ -1,54 +1,88 @@
 # A Comparative Study of ML and Statistical Models in Time Series Data
 
-## Project Overview
-This research project conducts a comprehensive comparative analysis of Machine Learning and Statistical Models in processing and analyzing time series data, with a specific focus on climate change and pollution metrics. The study evaluates the effectiveness of traditional statistical approaches against modern machine learning and neural network-based methodologies.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-📄 **Research Paper**: [Analyzing the Impact of Climate Change With Major Emphasis on Pollution: A Comparative Study of ML and Statistical Models in Time Series Data](https://arxiv.org/abs/2405.15835)
+## 📝 Research Paper
+[Analyzing the Impact of Climate Change With Major Emphasis on Pollution: A Comparative Study of ML and Statistical Models in Time Series Data](https://arxiv.org/abs/2405.15835)
 
-## Key Research Findings
-This study addresses the critical need for sophisticated technology in monitoring and analyzing climate data, particularly in the context of exponential industrial growth. Our research:
+## 🎯 Project Overview
+This research project analyzes climate change impacts through time series data analysis, comparing traditional statistical approaches with modern machine learning methodologies.
 
-- Evaluates various machine learning and statistical models for time series analysis of climate data
-- Focuses on pollution metrics and their correlation with climate change
-- Provides comparative analysis of different methodological approaches
-- Offers insights for environmental monitoring and prediction
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/i-anuragmishra/A-Comparative-Study-of-ML-and-Statistical-Models-in-Time-Series-Data.git
 
-## Research Objectives
-- Compare the performance of statistical ML models and neural network-based approaches in time series analysis
-- Analyze climate change patterns with emphasis on pollution indicators
-- Evaluate prediction accuracy and computational efficiency of different methodologies
-- Provide insights for selecting appropriate models for similar environmental data analysis
+# Install dependencies
+pip install -r requirements.txt
 
-## Methodologies
-### Statistical Models
-- Time Series Analysis
-- Regression Models
-- Statistical Forecasting
+# Run experiments
+python src/main.py
+```
 
-### Machine Learning Approaches
-- Supervised Learning Models
-- Deep Learning Networks
-- Neural Network Architectures
+## 📁 Repository Structure
+```
+├── data/
+│   ├── raw/              # Original, immutable data
+│   ├── processed/         # Cleaned and processed data
+│   └── external/          # External source data
+├── docs/                  # Documentation
+│   ├── paper/            # Research paper and related materials
+│   └── figures/          # Figures and visualizations
+├── models/               # Trained and serialized models
+├── notebooks/            # Jupyter notebooks for exploration and demonstration
+├── src/                  # Source code
+│   ├── data/             # Data processing scripts
+│   ├── features/         # Feature engineering code
+│   ├── models/           # Model implementations
+│   └── visualization/    # Visualization code
+├── tests/                # Test cases
+├── requirements.txt      # Project dependencies
+└── README.md            # Project documentation
+```
 
-## Technologies Used
-- Python for Implementation
-- Machine Learning Libraries (TensorFlow, PyTorch, scikit-learn)
-- Statistical Analysis Tools
-- Data Visualization Libraries
-- Neural Network Frameworks
+## 🔍 Research Components
 
-## Dataset
-The study utilizes comprehensive climate and pollution data, incorporating:
-- Time series measurements of various pollutants
-- Climate change indicators
-- Industrial activity metrics
-- Environmental impact data
+### Data Processing
+- Time series data cleaning and preprocessing
+- Feature engineering for climate metrics
+- Data validation and quality checks
 
-## Contributors
-Research conducted and project maintained by [Anurag Mishra](https://github.com/i-anuragmishra)
+### Models Implemented
+1. Statistical Models
+   - ARIMA
+   - SARIMA
+   - Statistical Regression
 
-## Citation
-If you use this work in your research, please cite:
+2. Machine Learning Models
+   - LSTM Networks
+   - Random Forests
+   - XGBoost
+
+### Evaluation Metrics
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- R-squared Score
+
+## 📊 Results
+Detailed results and comparisons are available in:
+- `/notebooks/analysis.ipynb`
+- `/docs/results.md`
+
+## 🛠️ Technologies Used
+- Python 3.8+
+- TensorFlow 2.x
+- PyTorch
+- scikit-learn
+- pandas
+- numpy
+
+## 👥 Contributors
+Research conducted by [Anurag Mishra](https://github.com/i-anuragmishra)
+
+## 📚 Citation
 ```bibtex
 @article{mishra2024analyzing,
   title={Analyzing the Impact of Climate Change With Major Emphasis on Pollution: A Comparative Study of ML and Statistical Models in Time Series Data},
@@ -58,8 +92,8 @@ If you use this work in your research, please cite:
 }
 ```
 
-## License
-This project is open source and available under the [MIT License](LICENSE).
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 © 2024 All Rights Reserved
